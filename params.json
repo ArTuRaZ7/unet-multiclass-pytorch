@@ -11,8 +11,8 @@
             "MA": 3,
             "SE": 4
         },
-        "train_dir": "../../input/data12/data/images_test",
-        "test_dir": "../../input/data12/data/images_train",
+        "train_dir": "../../input/data12/data/images_train",
+        "test_dir": "../../input/data12/data/images_test",
         "image_folder": "images",
         "mask_folder": "masks"
     },
