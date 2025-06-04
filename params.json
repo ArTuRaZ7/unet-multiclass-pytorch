@@ -1,13 +1,15 @@
 {
     "models_settings":{
-        "resize_width": 256,
+        "resize_width": 2048,
         "equalize": "True",
         "patch_width": 96,
         "patch_height": 96,
         "label_to_value": {
             "_background_": 0, 
-            "line": 1, 
-            "ellipse": 2
+            "EX": 1,
+            "HE": 2,
+            "MA": 3,
+            "SE": 4
         },
         "train_dir": "../data/images_train",
         "test_dir": "../data/images_test",
@@ -17,8 +19,8 @@
     "shape_segmentation": {
         "patches_s96": {
             "path": "checkpoints/patches_s96_b8/CP76.pth",
-            "n_channels": 3,
-            "n_classes": 3,
+            "n_channels": 5,
+            "n_classes": 5,
             "patch_height": 96, 
             "patch_width": 96,
             "stride_vertical": 48,
