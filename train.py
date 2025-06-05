@@ -136,7 +136,7 @@ if __name__ == '__main__':
     val_ratio=0.1
     train_loader, val_loader =  make_dataloaders(dir_data, val_ratio, params)
     
-    net = UNet(n_channels=3, n_classes=3)
+    net = UNet(n_channels=5, n_classes=5)
     net.to(device)
 
     if args.load:
