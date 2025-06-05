@@ -2,8 +2,8 @@
     "models_settings":{
         "resize_width": 2048,
         "equalize": "True",
-        "patch_width": 96,
-        "patch_height": 96,
+        "patch_width": 256,
+        "patch_height": 256,
         "label_to_value": {
             "_background_": 0, 
             "EX": 1,
@@ -21,10 +21,10 @@
             "path": "checkpoints/patches_s96_b8/CP76.pth",
             "n_channels": 5,
             "n_classes": 5,
-            "patch_height": 96, 
-            "patch_width": 96,
-            "stride_vertical": 48,
-            "stride_horizontal": 48,
+            "patch_height": 256, 
+            "patch_width": 256,
+            "stride_vertical": 128,
+            "stride_horizontal": 128,
             "description": "unet model trained on size 96 patches"
         }
     }
