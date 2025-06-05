@@ -1,6 +1,6 @@
 {
     "models_settings":{
-        "resize_width": 2048,
+        "resize_width": 1280,
         "equalize": "True",
         "patch_width": 256,
         "patch_height": 256,
