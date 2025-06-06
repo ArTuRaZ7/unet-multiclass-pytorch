@@ -46,7 +46,7 @@ def eval_net_loader(net, val_loader, n_classes, device='cpu'):
     
     return class_iou, mean_iou
 
-def IoU(mask_true, mask_pred, n_classes=2):
+def IoU(mask_true, mask_pred, n_classes=5):
         
         labels = np.arange(n_classes)
         cm = confusion_matrix(mask_true.flatten(), mask_pred.flatten(), labels=labels)
