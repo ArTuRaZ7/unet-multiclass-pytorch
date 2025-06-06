@@ -49,7 +49,7 @@ def train_epoch(epoch, train_loader, criterion, optimizer, batch_size, scheduler
 
 
 def validate_epoch(epoch, train_loader, val_loader, device):
-    class_iou, mean_iou = eval_net_loader(net, val_loader, 3, device)
+    class_iou, mean_iou = eval_net_loader(net, val_loader, 5, device)
     print('Class IoU:', ' '.join(f'{x:.3f}' for x in class_iou), f'  |  Mean IoU: {mean_iou:.3f}')
     writer.add_scalar('mean_iou', mean_iou, len(train_loader) * (epoch+1))
     return mean_iou
