@@ -1,6 +1,8 @@
 {
     "models_settings":{
         "resize_width": 1280,
+        "n_channels": 3,
+        "n_classes": 5,
         "equalize": "True",
         "patch_width": 256,
         "patch_height": 256,
@@ -19,7 +21,7 @@
     "shape_segmentation": {
         "patches_s96": {
             "path": "checkpoints/patches_s96_b8/CP76.pth",
-            "n_channels": 5,
+            "n_channels": 3,
             "n_classes": 5,
             "patch_height": 256, 
             "patch_width": 256,
